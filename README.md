@@ -19,7 +19,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd portfolio
+  cd my-portfolio
 ```
 
 Install dependencies
