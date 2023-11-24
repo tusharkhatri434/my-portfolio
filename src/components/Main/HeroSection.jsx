@@ -70,7 +70,7 @@ const HeroSection = () => {
               alt="HTML & CSS"
             />
             <img
-              src="https://skillicons.dev/icons?i=js,typescript"
+              src="https://skillicons.dev/icons?i=js,typescript,cpp,java"
               alt="Js,Typescript"
             />
             <img
@@ -78,7 +78,7 @@ const HeroSection = () => {
               alt="react redux"
             />
             <img
-              src="https://skillicons.dev/icons?i=tailwind,bootstrap,sass"
+              src="https://skillicons.dev/icons?i=tailwind,bootstrap"
               alt=""
               tailwind
               sass
