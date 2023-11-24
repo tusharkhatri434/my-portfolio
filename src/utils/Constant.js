@@ -5,7 +5,7 @@ export const PROJECT_DATA = [
     title: "Youtube Clone",
     date: "(AUGUST 2023) 🚀",
     desc: "Built with React, Tailwind, and Redux, my YouTube clone offers efficient API calls with debouncing search filters, delivering top-notch user experience.",
-    tags: ["tailwind", "React", "Redux","Live Chat"],
+    tags: ["tailwind", "React", "Redux", "Live Chat"],
     live: "https://tushar-youtube-app.netlify.app/",
     github: "https://github.com/tusharkhatri434/my-youtube",
   },
@@ -16,7 +16,7 @@ export const PROJECT_DATA = [
     date: "(MARCH 2023) 🎪",
     desc: "FoodVill web app, created with React, Tailwind, Redux Toolkit, and Jest testing, fully responsive streamlines online business with API-driven search filters and cart functionality.",
 
-    tags: ["tailwind", "React", "Redux","React-Router-dom"],
+    tags: ["tailwind", "React", "Redux", "React-Router-dom"],
     live: "https://food-villa1.netlify.app/",
     github: "https://github.com/tusharkhatri434/food-villa",
   },
@@ -29,5 +29,15 @@ export const PROJECT_DATA = [
     tags: ["Html", "CSS3", "JavaScript"],
     live: "https://to-do-app-tushar-khatri.netlify.app/",
     github: "https://github.com/tusharkhatri434/To-do_App",
+  },
+  {
+    position: "left",
+    link: "https://raw.githubusercontent.com/tusharkhatri434/my-project-assets/master/p5.png",
+    title: "Drum Sticks",
+    date: "(October 2022) 🥁",
+    desc: "My to-do app, designed with pure HTML, CSS, and JS, offers full CRUD functionality and responsive design for seamless task management.",
+    tags: ["Html", "CSS3", "JavaScript"],
+    live: "https://tushar-drum-kit.netlify.app/",
+    github: "https://github.com/tusharkhatri434/drum-stick/tree/master",
   },
 ];

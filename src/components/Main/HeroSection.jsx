@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import profile from "../../assets/profile.jpeg";
 import { LiaLinkedin } from "react-icons/lia";
 import { FiGithub } from "react-icons/fi";
+import { FaLink } from "react-icons/fa";
 
 const HeroSection = () => {
   const [one, setOne] = useState();
@@ -38,6 +39,14 @@ const HeroSection = () => {
                 target="blank"
               >
                 <FiGithub size="2rem" />
+              </a>
+              <a
+                className="hover:text-blue-600 flex items-center gap-2 bg-black text-white rounded-lg px-2 hover:text-lime-300"
+                href="https://drive.google.com/file/d/1oA72eKFqmnDYiOuio0gKYQcyzoDkvnrM/view?usp=sharing"
+                target="blank"
+              >
+                <p className="text-xl font-bold">Resume</p>
+                <FaLink size="1rem" />
               </a>
             </span>
           </div>
