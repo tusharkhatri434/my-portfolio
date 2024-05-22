@@ -50,7 +50,7 @@ const HeroSection = () => {
               </a>
             </span>
           </div>
-          <div className="w-96">
+          <div className="max-w-[20rem]">
             <img
               className="rounded-full border-4 border-cyan-800 max-sm:w-64 max-sm:mx-auto"
               src={profile}

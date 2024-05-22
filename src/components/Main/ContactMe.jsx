@@ -15,11 +15,13 @@ const ContactMe = () => {
           </span>
           <div className="flex flex-col">
             <span className="text-xl font-bold">Location</span>
-            <span className="text-xl text-zinc-500">Meerut , India</span>
+            <span className="text-[1.1rem] sm:text-xl text-zinc-500">
+              Meerut , India
+            </span>
           </div>
         </div>
         <div>
-          <div className="flex gap-5 items-centerem">
+          <div className="flex  gap-4 items-center">
             <span className="p-3 rounded-full shadow-xl">
               <HiOutlineMail style={{ color: "#147efb" }} size="2rem" />
             </span>
@@ -29,7 +31,9 @@ const ContactMe = () => {
                 className="text-zinc-500 hover:text-blue-500"
                 href="mailto:tusharKhatri1001@gamil.com"
               >
-                <span className="text-xl ">tusharKhatri1001@gamil.com</span>
+                <p className="text-[1.1rem] sm:text-xl">
+                  tusharKhatri1001@gamil.com
+                </p>
               </a>
             </div>
           </div>
