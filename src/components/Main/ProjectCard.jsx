@@ -14,7 +14,7 @@ const ProjectCard = ({ data }) => {
 
 
   const [position] = useState(data.position);
-  const flex1 = position == "right " ? "flex-wrap " : "flex-wrap-reverse ";
+  const flex1 = position == "right" ? "flex-wrap " : "flex-wrap-reverse ";
   return (
     <div
       className={

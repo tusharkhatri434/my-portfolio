@@ -7,7 +7,6 @@ export const PROJECT_DATA = [
     desc: "Built with React, Tailwind, and Redux, my YouTube clone offers efficient API calls with debouncing search filters, delivering top-notch user experience.",
     tags: ["tailwind", "React", "Redux", "Live Chat"],
      live:"https://my-youtube-lake.vercel.app/",
-    // live: "https://tushar-youtube-app.netlify.app/",
     github: "https://github.com/tusharkhatri434/my-youtube",
   },
   {
