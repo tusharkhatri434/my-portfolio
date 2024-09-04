@@ -2,15 +2,24 @@ import React, { useState } from "react";
 import { FiGithub } from "react-icons/fi";
 import { TbExternalLink } from "react-icons/tb";
 import img from "../../assets/img1.webp";
+import { useContext } from "react";
+import { Themex } from "../App";
 
 const ProjectCard = ({ data }) => {
+
+
+  const {theme,setTheme} = useContext(Themex);
+  let themeColor = (theme)?"bg-black  text-slate-200 ":"bg-white ";
+  let cardOutline = (theme)?"border border-gray-500 ":null;
+
+
   const [position] = useState(data.position);
-  const flex1 = position == "right" ? "flex-wrap" : "flex-wrap-reverse";
+  const flex1 = position == "right " ? "flex-wrap " : "flex-wrap-reverse ";
   return (
     <div
       className={
         `flex flex-wrap max-w-[75vw] mx-auto py-5 rounded-2xl shadow-xl justify-evenly max-sm:max-w-[90vw] ` +
-        flex1
+        flex1 + themeColor + cardOutline
       }
     >
       {position == "right" ? (
@@ -28,7 +37,7 @@ const ProjectCard = ({ data }) => {
           {data.title}
           <span className="mx-1">{data.date}</span>
         </li>
-        <li className="text-lg font-medium  text-zinc-500 mt-2 text-center px-12">
+        <li className="text-lg font-medium mt-2 text-zinc-500 text-center px-12 ">
           {data.desc}
         </li>
         <li className="mt-3 flex flex-wrap justify-center">

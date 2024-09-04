@@ -3,7 +3,7 @@ import { FiGithub } from "react-icons/fi";
 import { AiOutlineLinkedin } from "react-icons/ai";
 const Footer = () => {
   return (
-    <div className="w-full bg-zinc-800 h-40">
+    <div className="w-full bg-zinc-900 h-40">
       <div className="flex flex-wrap h-40 max-w-5xl mx-auto justify-between items-center max-sm:justify-center">
         <h1 className="text-white text-xl font-bold max-sm:text-center">
           Copyright © 2023. All rights are reserved

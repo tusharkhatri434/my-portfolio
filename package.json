@@ -106,6 +106,9 @@
     "weak-lru-cache": "^1.2.2",
     "yallist": "^4.0.0"
   },
+  "optionalDependencies": {
+  "lightningcss-win32-x64-msvc": "1.22.0"
+},
   "scripts": {
     "start": "parcel ./Public/index.html",
     "build": "parcel build ./Public/index.html",

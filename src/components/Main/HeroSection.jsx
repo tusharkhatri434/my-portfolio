@@ -1,27 +1,36 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import profile from "../../assets/profile.jpeg";
 import { LiaLinkedin } from "react-icons/lia";
 import { FiGithub } from "react-icons/fi";
 import { FaLink } from "react-icons/fa";
+import { useContext } from "react";
+import { Themex } from "../App";
 
 const HeroSection = () => {
   const [one, setOne] = useState();
   const [two, setTwo] = useState();
   const [three, setThree] = useState();
   const [four, setFour] = useState();
+
+  const {theme,setTheme} = useContext(Themex);
+  let themeColor = (theme)?"bg-black  text-slate-200":"bg-stone-50";
+  let textColor1 = (theme)?"text-slate-200":null;
+  let textColor2 = (theme)?"text-slate-200":"text-zinc-700";
+  let textColor3 = (theme)?"text-slate-400":"text-neutral-600";
+
   useEffect(() => {
     setInterval(() => {}, 200);
   });
 
   return (
-    <div className="pt-16 bg-stone-50">
-      <div className="max-w-5xl mx-auto px-8  bg-stone-50">
+    <div className={"pt-16 "+themeColor}>
+      <div className={"max-w-5xl mx-auto px-8 "+themeColor}>
         <div className="flex max-[500px]:flex-col-reverse items-center">
           <div className="max-w-lg">
-            <h1 className="text-5xl px-3 font-bold text-zinc-700 max-sm:text-4xl max-sm:text-center max-sm:pt-2">
+            <h1 className={"text-5xl px-3 font-bold max-sm:text-4xl max-sm:text-center max-sm:pt-2 "+textColor2}>
               Front-End React Developer👋
             </h1>
-            <p className="text-lg mt-4 px-3 text-neutral-600 max-sm:px-0 max-sm:text-center">
+            <p className={"text-lg mt-4 px-3 max-sm:px-0 max-sm:text-center "+textColor3}>
               Hi, I'm Tushar Khatri. A passionate Front-end React Developer,
               India. 📍
             </p>
@@ -59,7 +68,7 @@ const HeroSection = () => {
           </div>
         </div>
         {/* tech stack ------ */}
-        <div className="flex gap-7 flex-wrap mt-14 items-center py-5 max-sm:justify-center max-sm:mt-5">
+        <div className={"flex gap-7 flex-wrap mt-14 items-center py-5 max-sm:justify-center max-sm:mt-5 "+textColor1}>
           <div className="text-2xl font-bold max-sm:underline">
             Tech Stack{" "}
             <span className="pl-5 text-neutral-600 max-sm:hidden">|</span>
