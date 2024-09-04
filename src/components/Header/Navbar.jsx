@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
       ) : (
         <div className="pr-10 z-50 flex items-center min-[640px]:hidden">
-          <span className="mr-5">
+          <span className="mr-5 cursor-pointer" onClick={()=>setTheme(!theme)}>
           {theme?"🌞":"🌙"}
           </span>
           <IoMenu
