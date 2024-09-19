@@ -1,6 +1,16 @@
 export const PROJECT_DATA = [
   {
     position: "right",
+    link: "https://raw.githubusercontent.com/tusharkhatri434/my-project-assets/master/P0.png",
+    title: "Crackflix-GPT",
+    date: "(AUGUST 2024) 🚀",
+    desc: "Built with React, Firebase, and TMDB-API, Crackflix show trending movies list with Trailers with netflix streaming theme",
+    tags: ["React", "Vercel", "TMDB-API", "Firebase"],
+     live:"https://crackflix.vercel.app/",
+    github: "https://github.com/tusharkhatri434/",
+  },
+  {
+    position: "left",
     link: "https://raw.githubusercontent.com/tusharkhatri434/my-project-assets/master/p1.png",
     title: "Youtube Clone",
     date: "(AUGUST 2023) 🚀",
@@ -10,7 +20,7 @@ export const PROJECT_DATA = [
     github: "https://github.com/tusharkhatri434/my-youtube",
   },
   {
-    position: "left",
+    position: "right",
     link: "https://raw.githubusercontent.com/tusharkhatri434/my-project-assets/master/p3.png",
     title: "FoodVilla",
     date: "(MARCH 2023) 🎪",
@@ -21,7 +31,7 @@ export const PROJECT_DATA = [
     github: "https://github.com/tusharkhatri434/food-villa",
   },
   {
-    position: "right",
+    position: "left",
     link: "https://raw.githubusercontent.com/tusharkhatri434/my-project-assets/master/p4.png",
     title: "To-DO App",
     date: "(FEBRUARY 2023) 📲",
@@ -31,7 +41,7 @@ export const PROJECT_DATA = [
     github: "https://github.com/tusharkhatri434/To-do_App",
   },
   {
-    position: "left",
+    position: "right",
     link: "https://raw.githubusercontent.com/tusharkhatri434/my-project-assets/master/p5.png",
     title: "Drum Sticks",
     date: "(October 2022) 🥁",

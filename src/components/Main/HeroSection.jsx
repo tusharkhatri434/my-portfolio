@@ -51,7 +51,7 @@ const HeroSection = () => {
               </a>
               <a
                 className="hover:text-blue-600 flex items-center gap-2 bg-black text-white rounded-lg px-2 hover:text-lime-300 border"
-                href="https://drive.google.com/file/d/1oA72eKFqmnDYiOuio0gKYQcyzoDkvnrM/view?usp=sharing"
+                href="https://drive.google.com/file/d/12EwVYjNx8BC1SfSRxbpjO-Nsv-XCeFeS/view"
                 target="blank"
               >
                 <p className="text-xl font-bold">Resume</p>
@@ -83,8 +83,8 @@ const HeroSection = () => {
               alt="Js,Typescript"
             />
             <img
-              src="https://skillicons.dev/icons?i=react,redux"
-              alt="react redux"
+              src="https://skillicons.dev/icons?i=react,redux,nodejs"
+              alt="react redux nodejs"
             />
             <img
               src="https://skillicons.dev/icons?i=tailwind,bootstrap"
