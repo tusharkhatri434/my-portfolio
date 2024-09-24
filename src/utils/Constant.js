@@ -45,7 +45,7 @@ export const PROJECT_DATA = [
     link: "https://raw.githubusercontent.com/tusharkhatri434/my-project-assets/master/p5.png",
     title: "Drum Sticks",
     date: "(October 2022) 🥁",
-    desc: "My to-do app, designed with pure HTML, CSS, and JS, offers full CRUD functionality and responsive design for seamless task management.",
+    desc: "Developed an interactive drum kit that plays different sounds when users click on various drum parts.",
     tags: ["Html", "CSS3", "JavaScript"],
     live: "https://tushar-drum-kit.netlify.app/",
     github: "https://github.com/tusharkhatri434/drum-stick/tree/master",
