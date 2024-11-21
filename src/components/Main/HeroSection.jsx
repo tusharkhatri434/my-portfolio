@@ -51,7 +51,7 @@ const HeroSection = () => {
               </a>
               <a
                 className="hover:text-blue-600 flex items-center gap-2 bg-black text-white rounded-lg px-2 hover:text-lime-300 border"
-                href="https://drive.google.com/file/d/12EwVYjNx8BC1SfSRxbpjO-Nsv-XCeFeS/view"
+                href="https://drive.google.com/file/d/1tLBxwU-tewlnh41hscWNi-KO-L7w8shZ/view"
                 target="blank"
               >
                 <p className="text-xl font-bold">Resume</p>
