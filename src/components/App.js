@@ -6,7 +6,7 @@ import Main from "./Main/Body";
 export const Themex = createContext();
 
 const App = () => {
- const [theme,setTheme] = useState(false);
+ const [theme,setTheme] = useState(true);
 
  let themeColor = (theme)?"bg-black ":null;
 
