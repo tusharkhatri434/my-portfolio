@@ -28,10 +28,10 @@ const HeroSection = () => {
         <div className="flex max-[500px]:flex-col-reverse items-center">
           <div className="max-w-lg">
             <h1 className={"text-5xl px-3 font-bold max-sm:text-4xl max-sm:text-center max-sm:pt-2 "+textColor2}>
-              Front-End React Developer👋
+              Full-stack React Developer👋
             </h1>
             <p className={"text-lg mt-4 px-3 max-sm:px-0 max-sm:text-center "+textColor3}>
-              Hi, I'm Tushar Khatri. A passionate Front-end React Developer,
+              Hi, I'm Tushar Khatri. A passionate Full-stack React Developer,
               India. 📍
             </p>
             <span className="flex flex-row px-3 py-2 gap-2 max-sm:justify-center">
