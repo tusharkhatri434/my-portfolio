@@ -33,7 +33,7 @@ const HeroSection = () => {
             <p className={"text-lg mt-4 px-3 max-sm:px-0 max-sm:text-center "+textColor3}>
               Hi, I'm Tushar Khatri. A passionate Full-stack React Developer,
               India. 📍
-            </p>N
+            </p>
             <span className="flex flex-row px-3 py-2 gap-2 max-sm:justify-center">
               <a
                 className="cursor-pointer hover:text-blue-500"
