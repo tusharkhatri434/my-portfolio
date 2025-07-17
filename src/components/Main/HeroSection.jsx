@@ -33,7 +33,7 @@ const HeroSection = () => {
             <p className={"text-lg mt-4 px-3 max-sm:px-0 max-sm:text-center "+textColor3}>
               Hi, I'm Tushar Khatri. A passionate Full-stack React Developer,
               India. 📍
-            </p>
+            </p>N
             <span className="flex flex-row px-3 py-2 gap-2 max-sm:justify-center">
               <a
                 className="cursor-pointer hover:text-blue-500"
@@ -60,12 +60,16 @@ const HeroSection = () => {
             </span>
           </div>
           <div className="max-w-[20rem]">
-            <img
-              className="rounded-full border-4 border-cyan-800 max-sm:w-64 max-sm:mx-auto"
-              src={profile}
-              alt="profile-image"
-            ></img>
-          </div>
+  <div className="w-64 h-64 max-sm:mx-auto border-4 border-cyan-800 rounded-full animate-morph overflow-hidden transition-all duration-1000">
+    <img
+      className="w-full h-full object-cover"
+      src={profile}
+      alt="profile-image"
+    />
+  </div>
+</div>
+
+
         </div>
         {/* tech stack ------ */}
         <div className={"flex gap-7 flex-wrap mt-14 items-center py-5 max-sm:justify-center max-sm:mt-5 "+textColor1}>

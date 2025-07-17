@@ -11,7 +11,7 @@ const Navbar = () => {
   let themeColor = (theme)?"bg-zinc-900  text-slate-200":"bg-white";
 
   return (
-    <div className={"py-5 text-lg font-medium flex items-center justify-between shadow-lg sticky top-0 "+themeColor}>
+    <div className={"py-5 z-50 text-lg font-medium flex items-center justify-between shadow-lg sticky top-0 "+themeColor}>
       <a className="hover:text-blue-600" href="/">
         <h1 className="ml-10 text-2xl font-bold">Tushar khatri</h1>
       </a>
