@@ -50,8 +50,8 @@ const HeroSection = () => {
                 <FiGithub size="2rem" />
               </a>
               <a
-                className="hover:text-blue-600 flex items-center gap-2 bg-black text-white rounded-lg px-2 hover:text-lime-300 border"
-                href="https://drive.google.com/file/d/1tLBxwU-tewlnh41hscWNi-KO-L7w8shZ/view"
+                className="flex items-center gap-2 bg-black text-white rounded-lg px-2 hover:text-lime-300 border"
+                href="https://drive.google.com/file/d/1InVujal2AUt6M3o_vtgTezfCIeHDStnA/view?usp=sharing"
                 target="blank"
               >
                 <p className="text-xl font-bold">Resume</p>
